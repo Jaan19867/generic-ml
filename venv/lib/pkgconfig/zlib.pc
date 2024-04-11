@@ -1,0 +1,13 @@
+prefix=/home/riz/Desktop/ml-vihaan/venv
+exec_prefix=/home/riz/Desktop/ml-vihaan/venv
+libdir=/home/riz/Desktop/ml-vihaan/venv/lib
+sharedlibdir=/home/riz/Desktop/ml-vihaan/venv/lib
+includedir=/home/riz/Desktop/ml-vihaan/venv/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
